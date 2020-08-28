@@ -1,6 +1,5 @@
 # JS LIBRARY BOILERPLATE
 
-===
 JS Library boilerplate is include with 
 - Typescript
 - Jest Test
