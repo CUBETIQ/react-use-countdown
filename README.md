@@ -7,12 +7,22 @@ JS Library boilerplate is include with
 - Pre commit Prettier
 - Eslint 
 
-### Start Up
+### Get Started
 
 ---
 
-- Re init git 
-- Delete src/sample1.ts , src/sample2.ts
-- Delete test/sample1.test.ts, test/sample2.test.ts
-- Reconfig package.json , name , description, git url ...
-- Re construct example
+After View Sample Ready , Please Run
+```shell script
+bash init.sh
+```
+
+This Script Will Reinit Project  
+- Delete Sample File and SRC and Test
+- Clear src/index.ts
+- Reinitialize Git
+- Delete Example Folder
+
+After Done This , Please reconfig package json
+- Name
+- Description
+- Git Repository Url 
