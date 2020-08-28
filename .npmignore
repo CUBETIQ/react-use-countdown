@@ -1,0 +1,10 @@
+# Ignore Node Module
+**/node_modules
+
+# Editor
+.idea
+.vscode
+
+# Lock File
+yarn.lock
+package.lock.json

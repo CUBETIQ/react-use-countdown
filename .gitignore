@@ -11,4 +11,7 @@
 # Built
 dist
 
+# Error File
+yarn-error.log
+
 
