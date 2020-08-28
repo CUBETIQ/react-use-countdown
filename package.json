@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "build:test": "yarn jest && yarn build"
+    "build:test": "yarn jest && yarn build",
+    "run:example": "cd example && yarn start"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

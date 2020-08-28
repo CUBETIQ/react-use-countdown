@@ -3,10 +3,10 @@
 .vscode
 
 # Lock File
-yarn.lock
+**/yarn.lock
 
 # Node Modules
-node_modules
+**/node_modules
 
 # Built
 dist

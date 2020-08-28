@@ -1,0 +1,14 @@
+{
+  "name": "lib-example",
+  "version": "1.0.0",
+  "description": "Example of Develop Library",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "lib-name": "link:../"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
