@@ -16,6 +16,8 @@
     "build": "tsc",
     "test": "jest",
     "build:test": "yarn jest && yarn build",
+    "publish": "yarn build:test && npm publish --registry https://npm.osa.cubetiqs.com",
+
     "run:example": "cd example && yarn start"
   },
   "devDependencies": {

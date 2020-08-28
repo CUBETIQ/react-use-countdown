@@ -8,8 +8,6 @@
 # Node Modules
 **/node_modules
 
-# Built
-dist
 
 # Error File
 yarn-error.log
