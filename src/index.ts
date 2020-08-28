@@ -1,1 +1,3 @@
-console.log('heeee');
+
+
+export { default as sample } from "./sample"
