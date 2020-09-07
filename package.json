@@ -11,10 +11,13 @@
     "javascript",
     "typescript",
     "boilerplate",
-    "library"
+    "library",
+    "react",
+    "countdown",
+    "hook"
   ],
   "repository": {
-    "url": "https://git.cubetiqs.com/s.long/js-lib-boilerplate"
+    "url": "https://git.cubetiqs.com/s.long/cubetiq-react-use-countdown"
   },
   "scripts": {
     "build": "tsc",
