@@ -1,23 +1,26 @@
 {
-  "name": "lib-name",
+  "name": "cubetiq-react-use-countdown",
   "version": "1.0.0",
-  "description": "lib-description",
+  "description": "Count down with trigger",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "author": "SL",
   "license": "MIT",
   "private": false,
-  "keywords": ["javascript","typescript", "boilerplate","library"],
-
+  "keywords": [
+    "javascript",
+    "typescript",
+    "boilerplate",
+    "library"
+  ],
   "repository": {
     "url": "https://git.cubetiqs.com/s.long/js-lib-boilerplate"
   },
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "build:test": "yarn jest && yarn build",
+    "build:test": "yarn test && yarn build",
     "publish": "yarn build:test && npm publish --registry https://npm.osa.cubetiqs.com",
-
     "run:example": "cd example && yarn start"
   },
   "devDependencies": {
@@ -26,6 +29,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@types/jest": "^26.0.10",
     "@types/node": "^14.6.1",
+    "@types/react": "^16.9.49",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",
     "babel-jest": "^26.3.0",
