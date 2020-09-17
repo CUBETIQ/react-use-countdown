@@ -1,5 +1,5 @@
 {
-  "name": "cubetiq-react-use-countdown",
+  "name": "@cubetiq/react-use-countdown",
   "version": "1.0.0",
   "description": "Count down with trigger",
   "main": "./dist/index.js",
@@ -17,13 +17,14 @@
     "hook"
   ],
   "repository": {
-    "url": "https://git.cubetiqs.com/s.long/cubetiq-react-use-countdown"
+    "url": "https://git.cubetiqs.com/CUBETIQ/react-use-countdown.git"
   },
   "scripts": {
     "build": "tsc",
     "test": "jest",
     "build:test": "yarn test && yarn build",
     "publish": "yarn build:test && npm publish --registry https://npm.osa.cubetiqs.com",
+    "publish:npm": "yarn build:test && npm publish --registry https://registry.npmjs.com",
     "run:example": "cd example && yarn start"
   },
   "devDependencies": {
