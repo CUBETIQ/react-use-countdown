@@ -16,7 +16,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(require("react"));
 var DEFAULT_OPTIONS = {
-    step: 1000
+    step: 1000,
 };
 function useCountdown(options) {
     var _a = react_1.default.useState(), timeleft = _a[0], setTimeleft = _a[1];
@@ -47,7 +47,7 @@ function useCountdown(options) {
     }, [timeleft]);
     var result = {
         timeleft: timeleft || 0,
-        start: start
+        start: start,
     };
     return result;
 }
