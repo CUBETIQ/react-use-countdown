@@ -1,6 +1,6 @@
 {
   "name": "@cubetiq/react-use-countdown",
-  "version": "1.0.7",
+  "version": "1.10.4",
   "description": "Count down with trigger",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -23,7 +23,6 @@
     "build": "tsc",
     "test": "jest",
     "build:test": "yarn test && yarn build",
-    "publish": "yarn build:test && npm publish --registry https://registry.npmjs.com",
     "run:example": "cd example && yarn start"
   },
   "devDependencies": {
