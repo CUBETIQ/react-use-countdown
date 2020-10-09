@@ -1,12 +1,24 @@
 {
     "name": "@cubetiq/react-use-countdown",
-    "version": "1.10.5",
-    "description": "Count down with trigger",
+    "version": "1.10.6",
+    "description": "React Countdown with trigger",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "author": "SL",
     "license": "MIT",
     "private": false,
+    "contributors": [
+      {
+        "email": "s.long@cubetiqs.com",
+        "name": "@s.long",
+        "url": "https://git.cubetiqs.com/s.long"
+      },
+      {
+        "email": "sombochea@cubetiqs.com",
+        "name": "@SomboChea",
+        "url": "https://git.cubetiqs.com/sombochea"
+      }
+    ],
     "keywords": [
         "javascript",
         "typescript",
