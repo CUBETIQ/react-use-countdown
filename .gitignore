@@ -11,3 +11,6 @@
 
 # Error File
 yarn-error.log
+
+/build
+/dist
