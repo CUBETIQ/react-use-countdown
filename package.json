@@ -1,6 +1,6 @@
 {
     "name": "@cubetiq/react-use-countdown",
-    "version": "1.10.8",
+    "version": "1.10.9",
     "description": "React Countdown with trigger",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",

@@ -1,5 +1,7 @@
 # React Countdown Hook
 
+[![Build Status](https://dci.osa.cubetiqs.com/api/badges/CUBETIQ/react-use-countdown/status.svg)](https://dci.osa.cubetiqs.com/CUBETIQ/react-use-countdown)
+
 ### Installation
 ```shell script
 # NPM
