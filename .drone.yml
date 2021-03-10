@@ -1,0 +1,14 @@
+kind: pipeline
+type: docker
+name: ci
+
+steps:
+- name: npm
+  image: plugins/npm
+  settings:
+    username:
+      from_secret: NPM_USERNAME
+    password:
+      from_secret: NPM_PASSWORD
+    email:
+      from_secret: NPM_EMAIL
